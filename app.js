@@ -1,12 +1,12 @@
 (function () {
   'use strict';
 
-  angular.module("FoodListApp", [])
-          .controller("FoodListController", FoodListController)
+  angular.module("LunchCheck", [])
+          .controller("LunchCheckController", LunchCheckController)
 
-  FoodListController.$inject = ["$scope", "$filter"];
+  LunchCheckController.$inject = ["$scope", "$filter"];
 
-  function FoodListController ($scope, $filter) {
+  function LunchCheckController ($scope, $filter) {
 
     $scope.checkIfTooMuch = function () {
       // Split input by comma
