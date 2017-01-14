@@ -1,0 +1,17 @@
+.green-border input {
+    border-style: solid;
+    border-color: #02C54C;
+}
+
+.green-border span {
+  color: green;
+}
+
+.red-border input {
+  border-style: solid;
+  border-color: #ff0000;
+}
+
+.red-border span {
+  color: red;
+}
