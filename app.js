@@ -35,7 +35,7 @@
         status.class = "red-border";
         return status;
       } else {
-        status.message = "Enjoy";
+        status.message = "Enjoy!";
         status.class = "green-border";
         return status;
       }
